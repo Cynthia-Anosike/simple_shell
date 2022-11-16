@@ -124,17 +124,17 @@ int delete_node_at_index(list_t **head, unsigned int index)
 		{
 			prev_node->next = node->next;
 			free(node->str);
-OBOBOB			free(node);
+			free(node);
 			return (1);
 		}
 		i++;
 		prev_node = node;
-OBOBOB		node = node->next;
+		node = node->next;
 	}
 	return (0);
 }
 
-OBOBOB/**
+/**
  * free_list - frees all nodes of a list
  * @head_ptr: address of pointer to head node
  *
@@ -143,7 +143,7 @@ int delete_node_at_index(list_t **head, unsigned int index)
 void free_list(list_t **head_ptr)
 {
 	list_t *node, *next_node, *head;
-OBOBOB
+
 	if (!head_ptr || !*head_ptr)
 		return;
 	head = *head_ptr;
