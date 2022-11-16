@@ -246,6 +246,6 @@ $
 * Pair programming and team work
 * Building a test suite to check our own code
 ### Authors
-Cynthia Anosike
+Cynthia Anosike - chiomaanosike28@gmail.com
 
-James Chiedozie James (chiedozie013@gmail.com)
+James Chiedozie James - chiedozie013@gmail.com
